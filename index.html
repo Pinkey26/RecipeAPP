@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="homekit.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-div">
+                <img src="homekit.jpg" alt="image" width="100px" height="60px" id="logoid"  >
+                <h1>Recipe App</h1>
+            </div>
+            <form>
+                <input type="text" placeholder="Search for Recipe" class="SearchBox"> 
+                <button type="submit" class="searchbtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+                <h2>Search your favourite recipes...</h2>   
+            </div>
+            <div class="recipe-detail">
+                <button type="button" class="recipe-close-btn"><i class="fas fa-times"></i></button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+    </main>
+    <Script src="Script.js"></Script>
+</body>
+</html>
